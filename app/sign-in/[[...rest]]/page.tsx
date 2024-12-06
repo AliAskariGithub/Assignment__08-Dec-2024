@@ -1,7 +1,7 @@
 // app/sign-in/page.tsx
 'use client';
 
-import { useAuth, RedirectToSignIn } from '@clerk/nextjs';
+import { useAuth } from '@clerk/nextjs';
 import { SignIn } from '@clerk/nextjs';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
